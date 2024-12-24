@@ -20,6 +20,7 @@
       "@components/*": ["components/*"],
       "@interfaces/*": ["interfaces/*"],
       "@routes/*": ["routes/*"],
+      "@styles/*": ["styles/*"],
     }
   },
   "include": [

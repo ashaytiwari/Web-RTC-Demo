@@ -9,6 +9,7 @@ export default defineConfig({
       '@components': '/src/components',
       '@interfaces': '/src/interfaces',
       '@routes': '/src/routes',
+      '@styles': '/src/styles',
     }
   }
 })
