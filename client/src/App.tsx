@@ -1,17 +1,15 @@
 import { Button } from "@nextui-org/react";
 
+import RouteComponent from "@routes/RouteComponent";
+import initialRoutes from "@routes/config/initialRoutes";
+
 import AppProvider from "@components/generics/AppProvider";
 
 function App() {
 
   return (
     <AppProvider>
-      <h3>Hare Krishna</h3>
-      <div className="flex gap-4 items-center">
-          <Button size="sm">Small</Button>
-          <Button size="md">Medium</Button>
-          <Button size="lg">Large</Button>
-        </div>
+      <RouteComponent routes={initialRoutes} />
     </AppProvider>
   );
 
